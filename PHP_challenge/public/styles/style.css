@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2014, 12:44:24 PM
+    Author     : Neda Veleva
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+    background: #001156 url(/images/background.jpg) no-repeat fixed center top;
+    background-size: 100%;
+    color: wheat;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+header nav {  
+  display: inline-block;
+  width: 75%;  
+  margin: 20px;
+}
+header nav ul {
+  list-style-type: none;
+  padding-left: 12px;
+}
+header nav ul li {
+  padding: 0 10px;
+  display: inline-block;
+  
+}
+a {
+  font-weight: bold;
+  color: wheat;
+  font-size: 22px;
+}
+
+header a:hover {
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+}
+.form {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+form {
+    position: relative;
+    width: 400px;
+    padding-right: 32px;
+    font-weight: 300;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    
+    padding: 0 10px;
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+   
+}
+
+input[type=checkbox] {
+    margin-top: 14px;
+}
+input[type=submit] {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+.login{
+    position: relative;
+    bottom: 0px;
+    left:-165px;
+    margin-left: 5px;
+}
+label {
+    float: left;
+    width: 150px;
+    line-height: 35px;
+    padding-right: 15px;
+    font-weight: 100;
+    text-align: right;
+    letter-spacing: 1px;
+}
+.message {
+    color: red;    
+}
+h1 {
+    margin-bottom: 10px;
+}
+
+section a, home {
+    font-size: 18px;
+}
+.form a {
+    margin-left: 10px;
+}
